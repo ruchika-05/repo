@@ -1,8 +1,8 @@
 import numpy as np
  
 # Taking two 1D array
-a = 3 + 1j
-b = 7 + 6j
+a = [[2, 1], [0, 3]]
+b = [[1, 1], [3, 2]]
  
 # Calculating dot product using dot()
 print(np.dot(a, b))
